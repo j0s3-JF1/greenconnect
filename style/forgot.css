@@ -1,0 +1,108 @@
+/*Container*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url("/img/vertical-green-forest-hills-kordun-croatia.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 70vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    width: 18vw;
+    height: 40px;
+    gap: 10px;
+}
+
+.input-box input{
+    border: none;
+    height: 30px;
+    width: 70%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    gap: 2vw;
+}
+
+/*Fundo*/
+.bg-gray {
+    background-color: rgba(128, 128, 128, 0.1);
+    /* Ajuste a cor de fundo e a opacidade desejada */
+    backdrop-filter: blur(10px);
+    /* Ajuste o valor de acordo com o desfoque desejado */
+    border-radius: 30px;
+    background-image: url("/img/fosco.png");
+}
+
+/*Texto*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+.title {
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    font-weight: 100;
+    font-family: var(--font)
+}
+
+.sub-title {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: var(--font);
+}
+
+.font{
+    font-family: var(--font);
+}
+
+.font-input{
+    font-size: 1.0rem;
+    font-family: var(--font);
+}
+
+/*Botão*/
+button {
+    background-color: var(--green);
+    color: #FFF;
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+button:hover{
+    color: var(--darkgreen);
+    background-color: #FFF;
+}
