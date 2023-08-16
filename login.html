@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/login.css">
-    <link rel="stylesheet" href="/style/index.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    <script src="/js/login.js"></script>
+    <title>GreenConnect - Login</title>
 </head>
-
 <body>
-    <div class="main-login">
-        <div class="left-login">
-            <img src="/img/logo.png" alt="">
-        </div>
-        <div class="right-login title">
-            <div class="card-login">
-                <h1>FAÇA LOGIN</h1>
-                <div class="textfield">
-                    <input type="text" name="usuario" placeholder="USUÁRIO">
+    <div class="container font">
+        <div class="main">
+            <div class="logo bg-white">
+                <img src="/img/logo.png" alt="Logo GreenConnect">
+            </div>
+            <div class="form bg-gray">
+                <h1 class="title">FAÇA LOGIN</h1>
+                <div class="input-box">
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <label>|</label>
+                    <input type="text" class="font-input" placeholder="USUÁRIO" id="usuario">
                 </div>
-                <div class="textfield">
-                    <input type="password" name="senha" placeholder="SENHA">
+                <div class="input-box">
+                    <i class="fa-regular fa-user fa-xl"></i>
+                    <label>|</label>
+                    <input type="text" class="font-input" placeholder="SENHA" id="senha">
                 </div>
-                <button class="btn-login">ENTRA</button>
-                <img src="/img/pngwing_1.png" alt="">
-                <a href="forgot.html">ESQUECI MINHA SENHA</a>
+                <button onclick="Login()">ENTRAR</button>
+                <div class="add">
+                    <img src="/img/pngwing_1.png" alt="Logo Schneider">
+                    <a href="forgot.html">ESQUECI MINHA SENHA</a>
+                </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>

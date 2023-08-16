@@ -3,13 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
     background: url("/img/vertical-green-forest-hills-kordun-croatia.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .main {
@@ -61,9 +68,6 @@ body {
 }
 
 /*Texto*/
-
-@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
-
 .title {
     color: #FFFFFF;
     font-size: 3.2rem;
@@ -78,26 +82,22 @@ body {
     font-family: var(--font);
 }
 
-.font{
-    font-family: var(--font);
-}
-
 .font-input{
     font-size: 1.0rem;
     font-family: var(--font);
 }
 
 /*Botão*/
-button {
+button ,a{
     background-color: var(--green);
     color: #FFF;
     width: 20%;
     height: 30px;
     border: none;
     border-radius: 20px;
-    box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -23px 2px 60px -23px rgba(0, 0, 0, 0.75);
+    box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
     font-weight: 500;
     font-family: var(--font);
 }

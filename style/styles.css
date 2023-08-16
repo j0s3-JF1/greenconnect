@@ -1,0 +1,13 @@
+/* Importe de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+
+/*Variaveis*/
+:root {
+    --green: #3dcd58;
+    --darkgreen: #03330c;
+    --font: 'Caudex', serif;
+    --title: 'Poppins', serif;
+}
