@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
 
 body{
-    background: url(/greenconnect/img/um-rio-atravessa-a-selva\ 1.png);
+    background: url(/img/um-rio-atravessa-a-selva\ 1.png);
     margin: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ i{
     width: 75vw;
     height: 80vh;
     border-radius: 30px;
-    background: url(/greenconnect/img/fosco.png);
+    background: url(/img/fosco.png);
 
     flex-direction: row;
     display: flex;
