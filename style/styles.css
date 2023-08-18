@@ -2,12 +2,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
 
 /*Variaveis*/
 :root {
     --green: #3dcd58;
     --darkgreen: #03330c;
+    --bgheader: rgba(36, 37, 38, 1);
     --font: 'Caudex', serif;
     --title: 'Poppins', serif;
+    --bodyfont: 'Chivo', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.HeaderFrame {
+    width: 100%;
+    top: 0;
+    position: relative;
+}
+
+/*ScroolBar*/
+body::-webkit-scrollbar {
+    width: 12px;
+    border: 1px solid var(--bgheader);
+    background-color: var(--bgheader);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(var(--green), var(--darkgreen));
+    border-radius: 0px;
+}
+
+/*ProgressBar*/
+progress::-webkit-progress-value {
+    background-color: var(--green);
+}
+
+/*Divisória*/
+
+hr{
+    width: 10%;
+    height: 5px;
+    background-color: var(--green);
 }

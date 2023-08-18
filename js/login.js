@@ -1,7 +1,6 @@
 /**
  * Função de efetuar login
  */
-
 function Login(){
 
     var user = document.getElementById("usuario").value;

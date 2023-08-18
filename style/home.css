@@ -1,0 +1,151 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Container*/
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5% ;
+    padding: 10%;
+}
+
+.left .user{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.left .user .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.left .user .info1{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.left .user .info2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.left .rede{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left .rede .contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*user*/
+
+.photo{
+    background-color: var(--darkgreen);
+    padding: 1%;
+    border-radius: 100%;
+    font-size: 2.0rem;
+}
+
+.nivel{
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 2%;
+    color: #FFF;
+    font-size: small;
+}
+
+.points{
+    font-size: small;
+}
+
+.contact1{
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: small;
+    width: 100%;
+}
+
+.contact1 i{
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.arrow{
+    font-size: 2.0rem;
+}
+
+.conn{
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: medium;
+    width: 100%;
+}
+
+.conn i{
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+/*textos*/
+
+.font-body{
+    font-family: var(--bodyfont);
+}

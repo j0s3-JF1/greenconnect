@@ -1,0 +1,50 @@
+.header{
+    background-color: var(--bgheader);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header img{
+    width: 30px;
+    background-color: #FFF;
+    border-radius: 100%;
+}
+
+.header a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: var(--title);
+    font-size: 0.8rem;
+}
+
+.header button {
+    background-color: var(--green);
+    color: #FFF;
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+.header button:hover {
+    color: var(--darkgreen);
+    background-color: #FFF;
+}
+
+.header .left{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
