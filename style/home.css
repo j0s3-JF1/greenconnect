@@ -1,4 +1,4 @@
-body{
+body {
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -9,27 +9,32 @@ body{
 }
 
 /*Container*/
-.container{
+.container {
     width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
 
-.left{
-    width: 100%;
+/*
+    Container na Lateral Esquerda
+*/
+.left {
+    width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5% ;
-    padding: 10%;
+    gap: 5%;
+    margin-left: 0;
+    padding-top: 10%;
 }
 
-.left .user{
+.left .user {
     width: 100%;
     height: auto;
     display: flex;
@@ -39,12 +44,12 @@ body{
     gap: 10px;
 }
 
-.left .user .info{
+.left .user .info {
     display: flex;
     flex-direction: column;
 }
 
-.left .user .info1{
+.left .user .info1 {
     width: auto;
     height: auto;
     display: flex;
@@ -52,18 +57,20 @@ body{
     align-items: baseline;
     flex-direction: row;
     gap: 5px;
+    font-size: 0.7rem;
 }
 
-.left .user .info2{
+.left .user .info2 {
     width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: baseline;
     flex-direction: column;
+    font-size: 0.7rem;
 }
 
-.left .rede{
+.left .rede {
     width: auto;
     height: auto;
     display: flex;
@@ -71,7 +78,7 @@ body{
     gap: 10px;
 }
 
-.left .rede .contact{
+.left .rede .contact {
     width: 100%;
     height: auto;
     display: flex;
@@ -81,16 +88,229 @@ body{
     gap: 10px;
 }
 
-/*user*/
+.left .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    gap: 10px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 
-.photo{
+.left .group button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-family: var(--title);
+}
+
+.left .group button:hover {
+    background-color: var(--green);
+    color: #FFF;
+
+}
+
+.left .group label {
+    width: 50%;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+.left .terminar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.left .terminar button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-family: var(--title);
+}
+
+.left .terminar button:hover {
+    background-color: var(--green);
+    color: #FFF;
+
+}
+
+.left .terminar label {
+    width: 50%;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+/*
+    Container Centralizado
+*/
+
+.middle {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    padding-top: 15%;
+    gap: 5px;
+}
+
+.middle img{
+    width: 100%;
+}
+
+.middle .comentarios{
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle .comment {
+    background-color: #FFF;
+    box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+-webkit-box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+-moz-box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.middle .comment2 {
+    background-color: #FFF;
+    box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+-webkit-box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+-moz-box-shadow: -3px -1px 20px -4px rgba(0,0,0,0.3);
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle .your-comment {
+    background-color: #DADADA;
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.middle .your-comment input{
+    border: none;
+    border-bottom: 1px solid;
+    background-color: #DADADA;
+    width: 100%;
+}
+
+.middle .user-comment {
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.middle .user-comment label{
+    font-weight: 100;
+    font-family: var(--title);
+}
+
+.middle .user-comment .interacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border-top: 1px solid #000;
+    margin-top: 5px;
+}
+
+/*
+    Container na Lateral direita
+*/
+
+.right {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+    top: 0;
+}
+
+.right .rede {
+    width: 15vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right .rede .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*Sub Containers*/
+
+.photo {
+    background-color: var(--darkgreen);
+    padding: 5%;
+    border-radius: 100%;
+    font-size: 2.0rem;
+    color: #FFF;
+}
+
+.photo2 {
     background-color: var(--darkgreen);
     padding: 1%;
     border-radius: 100%;
-    font-size: 2.0rem;
+    font-size: 1.0rem;
+    color: #FFF;
 }
 
-.nivel{
+.nivel {
     background-color: var(--green);
     border-radius: 10px;
     padding: 2%;
@@ -98,11 +318,19 @@ body{
     font-size: small;
 }
 
-.points{
+.nivel2 {
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 2%;
+    color: #FFF;
+    font-size: 0.6rem;
+}
+
+.points {
     font-size: small;
 }
 
-.contact1{
+.contact1 {
     border: 1px solid #000;
     border-radius: 30px;
     height: 50px;
@@ -115,17 +343,13 @@ body{
     width: 100%;
 }
 
-.contact1 i{
+.contact1 i {
     border: 1px solid #000;
     border-radius: 100%;
     padding: 5px;
 }
 
-.arrow{
-    font-size: 2.0rem;
-}
-
-.conn{
+.contact2 {
     border: 1px solid #000;
     border-radius: 30px;
     height: 50px;
@@ -133,19 +357,61 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
+    font-size: small;
+    width: 100%;
+}
+
+.contact2 label {
+    font-size: 0.7rem;
+}
+
+.contact2 i {
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.arrow {
+    font-size: 2.0rem;
+}
+
+.conn {
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
     font-size: medium;
     width: 100%;
 }
 
-.conn i{
+.conn label {
+    font-size: 0.8rem;
+}
+
+.conn i {
     border: 1px solid #000;
     border-radius: 100%;
     padding: 5px;
 }
 
+.load{
+    font-size: 3.0rem;
+    padding: 10px;
+}
+
 /*textos*/
 
-.font-body{
+.font-body {
     font-family: var(--bodyfont);
+}
+
+/*Titulos*/
+
+h1 {
+    font-size: 1.2rem;
 }

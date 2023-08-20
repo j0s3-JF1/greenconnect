@@ -10,5 +10,6 @@ function Login(){
         alert('Preencha todos os campos!');
     }else{
         alert('Seja bem-vindo(a) a GreenConnect!');
+        window.location.href = "Home.html";
     }
 }
