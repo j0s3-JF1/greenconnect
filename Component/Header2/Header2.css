@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 51px;
 }
 
 .header img{
@@ -20,6 +20,7 @@
     font-family: var(--title);
     font-size: 0.8rem;
     background-color: none;
+    cursor: pointer;
 }
 
 .header button {

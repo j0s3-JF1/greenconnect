@@ -1,0 +1,71 @@
+/*Container*/
+
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rede{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    gap: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.contact1 {
+    border: 1px solid #000;
+    border-radius: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: small;
+    padding: 15px;
+}
+
+.contact1 i {
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.nivel {
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 0.8rem;
+}
+
+.nivel2 {
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 0.6rem;
+}
+
+/*Texto*/
+
+.font{
+    font-family: var(--bodyfont);
+}

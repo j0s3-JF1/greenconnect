@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: -6%;
+}
+
+.container-width{
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Left*/
+.left{
+    width: 319px;
+    height: auto;
+}
+
+.left .perfil{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    gap: 30px;
+}
+
+.perfil-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil-info-name{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-family: 'Chivo', sans-serif;
+    font-size: 15px;
+    color: #242526;
+}
+
+.perfil-info-nivel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3dcd58;
+    border-radius: 65px;
+    height: 16px;
+    width: 56px;
+}
+
+.perfil-info-name .perfil-info-nivel h3{
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.perfil-info-progress-text{
+    font-size: 10px;
+    color: #242526;
+}
+
+.perfil-info-progress-text h2,h3{
+    font-weight: lighter;
+}
+
+.perfil-info-progress-barra{
+    background: #e4e7ea;
+    border-radius: 0.25rem;
+    height: 0.5rem;
+}
+
+.progress{
+    height: 0.5rem;
+    background: #00af00!important;
+}
+
+.left .minha-rede {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.minha-rede-h2 h2{
+    font-family: 'Chivo', sans-serif;
+    font-size: 16px;
+    margin-bottom: -1%;
+}
+
+.left .minha-rede .contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact1 {
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: small;
+    width: 70%;
+}
+
+.contact1 i {
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.contact1-user{
+    margin-left: 1rem;
+}
+
+.contact1-user i{
+    margin-right: 0.5rem;
+    
+}
+
+.contact1-nivel{
+    background-color: var(--green);
+    border-radius: 10px;
+    width: 50px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.nivel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    color: #FFF;
+    font-size: 7px;
+    font-family: 'Chivo', sans-serif;
+    letter-spacing: 1px;
+}
+
+.minha-rede-arrow, .minha-rede-coon{
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 2.0rem;
+}
+
+.minha-rede-coon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conn {
+    border: 1px solid #000;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    font-size: medium;
+    width: 70%;
+}
+
+.conn label {
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.conn i {
+    border: 1px solid #000;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.middle{
+    width: 668px;
+    height: auto;
+}
+
+.right{
+    width: 319px;
+    height: auto;
+}

@@ -1,0 +1,80 @@
+/*Container*/
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudos {
+    width: 55%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.conteudo-1,
+.conteudo-2,
+.conteudo-3 {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -5px 0px 27px -3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -5px 0px 27px -3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -5px 0px 27px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+.conteudo-1 img,
+.conteudo-2 img,
+.conteudo-3 img {
+    width: 80%;
+    padding: 10px;
+}
+
+.conteudo-2 label,
+.conteudo-1 label,
+.conteudo-3 label {
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+h1{
+    padding: 10px;
+}
+/*Sub container*/
+.align {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.divisoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+    text-align: center;
+    width: 90%;
+}
+
+/*tags modify*/
+h1 {
+    align-items: first baseline;
+}
+
+/*Texto*/
+
+.font {
+    font-family: var(--bodyfont);
+}

@@ -1,0 +1,144 @@
+
+/*Containers*/
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.sobre-projeto{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre-projeto h1{
+    text-align: left;
+}
+
+.sobre-projeto label{
+    width: 50%;
+    text-align: left;
+}
+
+.sobre-projeto ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.sobre-desenvolvimento{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sobre-desenvolvimento label{
+    width: 50%;
+    text-align: left;
+}
+
+.equipe{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.equipe .picture{
+    background-color: #DADADA;
+    border-radius: 100%;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe .picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.equipe .dev1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.equipe .dev1 .info{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.equipe .dev1 .info span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.equipe .dev2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.equipe .dev2 .info{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.equipe .dev2 .info span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.image{
+    border-radius: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+/*Remoão do marker*/
+::marker{
+    color: #FFF;
+}
+
+/*Texto*/
+
+.font{
+    font-family: var(--title);
+}

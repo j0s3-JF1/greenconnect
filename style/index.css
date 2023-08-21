@@ -17,6 +17,11 @@ body {
     flex-direction: column;
 }
 
+.background{
+    background-color: #ffffff;
+    padding-top: 20px;
+}   
+
 .conteudo1 {
     display: flex;
     flex-direction: row;
@@ -187,21 +192,13 @@ video {
 }
 
 /*Parallax effect*/
-.parallax-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.parallax{ 
+    height: 100vh;
+}
+
+.parallax video{
+    position: fixed;
     top: 0;
+    min-width: 100%;
+    z-index: -999;
 }
-
-.parallax-layer {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
-}
-

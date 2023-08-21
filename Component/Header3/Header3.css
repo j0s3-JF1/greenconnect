@@ -1,7 +1,7 @@
 .header{
     background-color: var(--bgheader);
     width: 100vw;
-    height: auto;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,9 +9,11 @@
 }
 
 .header img{
-    width: 30px;
-    background-color: #FFF;
+    position: absolute;
+    width: 7%;
+    background-color: #D9D9D9;
     border-radius: 100%;
+    margin-top: 5%;
 }
 
 .header a{
@@ -19,7 +21,6 @@
     color: #FFF;
     font-family: var(--title);
     font-size: 0.8rem;
-    cursor: pointer;
 }
 
 .header button {
@@ -39,13 +40,4 @@
 .header button:hover {
     color: var(--darkgreen);
     background-color: #FFF;
-}
-
-.header .left{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
 }
