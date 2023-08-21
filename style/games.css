@@ -44,7 +44,7 @@
 
 .games_image img{
     width: 100%;
-    height: ;
+    height: auto;
     background-color: aliceblue;
     justify-content: center;
     align-items: center;
