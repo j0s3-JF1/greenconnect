@@ -101,7 +101,7 @@ body {
     margin-top: 20px;
 }
 
-.minha-rede-h2 h2{
+.minha-rede-h2 h2, .grupos-h2 h2{
     font-family: 'Chivo', sans-serif;
     font-size: 16px;
     margin-bottom: -1%;
@@ -115,6 +115,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-top: 0.8rem;
 }
 
 .contact1 {

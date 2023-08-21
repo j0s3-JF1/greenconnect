@@ -54,10 +54,9 @@
 /*Sub container*/
 .align{
     width: 100%;
-    display: grid;
+    display: flex;
     flex-direction: row;
-    grid-gap: 5%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5%;
 }
 
 .divisoria{
@@ -78,4 +77,32 @@ h1{
 
 .font{
     font-family: var(--bodyfont);
+}
+
+/*Responsividade*/
+@media (min-width: 1200px){
+    .align{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1198.98px){
+    .align{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 992px){
+    .align{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+    }
 }

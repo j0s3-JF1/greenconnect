@@ -20,6 +20,8 @@ body {
 .background{
     background-color: #ffffff;
     padding-top: 20px;
+    width: 100%;
+    height: auto;
 }   
 
 .conteudo1 {
@@ -201,4 +203,31 @@ video {
     top: 0;
     min-width: 100%;
     z-index: -999;
+}
+
+/*Responsividade*/
+@media (min-width: 1200px ){
+    button {
+        font-size: 1.0rem;
+    }
+    
+    button:hover {
+        color: var(--darkgreen);
+        background-color: #FFF;
+    }
+}
+
+@media (min-width: 992px){
+    button {
+        font-size: 0.8rem;
+    }
+    
+    button:hover {
+        color: var(--darkgreen);
+        background-color: #FFF;
+    }
+}
+
+@media (min-width: 768px){
+
 }

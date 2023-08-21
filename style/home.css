@@ -415,3 +415,215 @@ body {
 h1 {
     font-size: 1.2rem;
 }
+
+/*Responsividade*/
+
+@media (min-width: 1200px){
+    .middle {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        padding-top: 25%;
+        gap: 5px;
+    }
+
+    .left {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 0;
+        padding-top: 10%;
+    }
+
+    .right {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 5%;
+        padding-left: 5%;
+        top: 0;
+    }
+
+    .nivel {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.5rem;
+    }
+
+    .nivel2 {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+}
+
+@media (max-width: 1198.98px){
+    .middle {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        padding-top: 25%;
+        gap: 5px;
+    }
+
+    .left {
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 0;
+        padding-top: 10%;
+    }
+
+    .right {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 5%;
+        padding-left: 5%;
+        top: 0;
+    }
+
+    .nivel {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.5rem;
+    }
+
+    .nivel2 {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+}
+
+@media (min-width: 992px){
+    .middle {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        padding-top: 5%;
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+
+    .left {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 10px;
+        padding-top: 20%;
+    }
+
+    .right {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 5%;
+        padding-left: 5%;
+        top: 0;
+    }
+
+    .nivel {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+
+    .nivel2 {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2px;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+}
+
+@media (max-width: 991.98px){
+    .middle {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        padding-top: 5%;
+        gap: 5px;
+        font-size: 0.8rem;
+    }
+
+    .left {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5%;
+        margin-left: 10px;
+        padding-top: 20%;
+    }
+
+    .right {
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 5%;
+        padding-left: 5%;
+        top: 0;
+    }
+
+    .nivel {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2%;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+
+    .nivel2 {
+        background-color: var(--green);
+        border-radius: 10px;
+        padding: 2px;
+        color: #FFF;
+        font-size: 0.4rem;
+    }
+}
