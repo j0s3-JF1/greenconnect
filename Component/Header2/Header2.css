@@ -12,6 +12,7 @@
     width: 30px;
     background-color: #FFF;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .header a{

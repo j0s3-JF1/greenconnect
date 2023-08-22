@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("/img/vertical-green-forest-hills-kordun-croatia.jpg");
+    background: url("../img/vertical-green-forest-hills-kordun-croatia.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -64,7 +64,7 @@ body {
     backdrop-filter: blur(10px);
     /* Ajuste o valor de acordo com o desfoque desejado */
     border-radius: 30px;
-    background-image: url("/img/fosco.png");
+    background-image: url("../img/fosco.png");
 }
 
 /*Texto*/

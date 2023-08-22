@@ -3,9 +3,9 @@ function LoginPage(){
 }
 
 function Video(){
-    window.top.location.href = "https://www.youtube.com/embed/-BckONx1bLw";
+    window.top.location.href = "../index.html#pitch";
 }
 
 function SobrePage(){
-    window.top.location.href = "../sobre.html";
+    window.top.location.href = "../index.html#sobre";
 }

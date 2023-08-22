@@ -1,0 +1,131 @@
+.container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.conteudo {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.conteudo button{
+    margin-top: 50px;
+}
+
+.lista {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.card {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -9px 4px 14px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card label {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.conteudo2 {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.lista2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30px;
+}
+
+.lista2 img{
+    width: 50%;
+}
+
+.lista2 .info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/*Botão*/
+button{
+    background-color: var(--green);
+    color: #FFF;
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: -9px 4px 14px 0px rgba(0,0,0,0.5);
+    font-weight: 500;
+    font-family: var(--font);
+}
+
+button:hover{
+    color: var(--darkgreen);
+    background-color: #FFF;
+}
+
+/*Texto*/
+
+.font {
+    font-family: var(--bodyfont);
+}
+
+.sub-title {
+    font-weight: 100;
+    font-size: 0.8rem;
+}
